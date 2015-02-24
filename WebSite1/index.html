@@ -1,0 +1,16 @@
+﻿<!doctype html>
+<html ng-app="store">
+<head>
+	<meta charset="utf-8">
+	<title>Angular page test in Visual Studio</title>
+</head>
+<body>
+	<div ng-controller="StoreController as store">
+		<h1>{{store.data.name}}</h1>
+		<h3>{{store.data.wage | currency}}</h3>
+	</div>
+
+	<script src="scripts/angular.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
