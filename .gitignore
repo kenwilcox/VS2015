@@ -158,6 +158,9 @@ ClientBin/
 *.pfx
 *.publishsettings
 node_modules/
+bower_components/
+artifacts/
+.vs/
 
 # RIA/Silverlight projects
 Generated_Code/
